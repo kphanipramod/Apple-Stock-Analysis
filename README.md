@@ -7,6 +7,9 @@ The data includes columns such as open, high, low, close, volume, and adjusted c
 The daily returns are then plotted using matplotlib. Moving on to quantity metrics, the 50-day moving average is calculated and a new column is created for it.
 The last entries of the 50-day moving average column are displayed, and a visualization is created showing both the adjusted close and the 50-day moving average for Apple's stock price.
 
+![Screen Shot 2024-03-07 at 17 19 10](https://github.com/kphanipramod/Apple-Stock-Analysis/assets/118381849/3272838a-9103-44de-b550-00dfc6f98c79)
+
+
 # Calibrating the Volatility of the Stock price and the Sharpe ratio
 Volatility is defined as a measure of dispersion of returns, indicating higher risk but potentially higher rewards. 
 The daily return standard deviation is used to calculate volatility, with a higher number indicating higher volatility. 
@@ -15,3 +18,6 @@ The calculation of Sharpe ratio using a risk-free rate of one percent and the me
 The resulting value of the Sharpe ratio for Apple stock indicates a bad performance with a downward movement in stock prices. The next topic discussed is Beta, which measures a stock's volatility compared to the market. 
 However, calculating beta requires S&P 500 data, which is downloaded from Yahoo Finance.
 Daily returns, also known as percent change, is a common measure used in financial analysis. Concatenated the daily returns of the Apple stock and the S&P 500 index and then calculated the beta, which represents the risk of the Apple stock compared to the market. 
+
+![Screen Shot 2024-03-07 at 17 18 54](https://github.com/kphanipramod/Apple-Stock-Analysis/assets/118381849/1ee6dd87-7637-4868-a70e-096b289f0b90)
+
